@@ -9,10 +9,9 @@ import '../UI/Card.css';
 const ExpenseItem = (props) => {
   // function clickHandler() {}
   const [title, setTitle] = useState(props.title);
-
+  
   const clickHandler = () => {
     setTitle('Updated!');
-    console.log(title);
   };
 
   return (
